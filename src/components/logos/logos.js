@@ -26,7 +26,7 @@ const Logos = () => {
         style={{
           height: "100px",
           width: "100px",
-          marginTop: "-15px",
+          marginTop: "15px",
           marginBottom: "-20px",
         }}
       />

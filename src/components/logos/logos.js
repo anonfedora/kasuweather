@@ -13,12 +13,12 @@ const Logos = () => {
         marginBottom: "-10px",
       }}
     >
-      <img
-        alt="logo"
-        className="icon-kasu"
-        src={`icons/logos.png`}
-        style={{ height: "110px", width: "110px" }}
-      />
+      // <img
+      //   alt="logo"
+      //   className="icon-kasu"
+      //   src={`icons/logos.png`}
+      //   style={{ height: "110px", width: "110px" }}
+      // />
       <img
         alt="logo"
         className="icon-group-9"

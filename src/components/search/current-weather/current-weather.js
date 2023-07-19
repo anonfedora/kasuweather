@@ -14,6 +14,12 @@ const CurrentWeather = ({ data }) => {
           src={`icons/${data.weather[0].icon}.png`}
         />
       </div>
+          <div>
+            <label className="min-max">
+               {Math.round(data.main.temp_min)}°C /{" "}
+               {Math.round(data.main.temp_max)}°C
+            </label>
+          </div>
       <div className="bottom">
         <p className="temperature">{Math.round(data.main.temp)}°C</p>
         <div className="details">

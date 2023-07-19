@@ -15,6 +15,10 @@
   align-items: center;
 }
 
+.min-max-curr {
+  margin-left: -50px;
+}
+
 .city {
   font-weight: 600;
   font-size: 18px;

@@ -15,7 +15,7 @@ const CurrentWeather = ({ data }) => {
         />
       </div>
           <div>
-            <label className="min-max">
+            <label className="min-max-curr">
                {Math.round(data.main.temp_min)}°C /{" "}
                {Math.round(data.main.temp_max)}°C
             </label>
